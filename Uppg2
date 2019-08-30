@@ -1,0 +1,16 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Skriv in ditt förnamn och efternamn");
+		string förnamn = Console .ReadLine();
+		string efternamn = Console .ReadLine(); 
+		Console.Write("Ditt namn är ");
+		Console.Write(förnamn ); 
+		Console.Write(" "); 
+		Console.Write(efternamn ); 
+	}
+}
+
